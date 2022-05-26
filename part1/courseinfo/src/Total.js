@@ -2,10 +2,10 @@ import React from 'react'
 
 const Total = (promp) => {
     const {e1} = promp
-    const {e2} = promp
-    const {e3} = promp
+    const total = Array.from(e1).reduce((acc, e1) => acc + e1.exercises, 0);
+    
     return (
-      <p>Number of exercises {e1 + e2 + e3}</p>
+      <strong><p>Total of exercises {total}</p></strong>
     )
   }
   

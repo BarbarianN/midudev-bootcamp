@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = (promp) => {
     return (
-      <h1>{promp.dtl}</h1>
+      <small><h1>{promp.dtl}</h1></small>
     )
   }
   
