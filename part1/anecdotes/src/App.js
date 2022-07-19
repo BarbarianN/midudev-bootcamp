@@ -35,7 +35,7 @@ const App = () => {
   
   return (
     <div>
-      <Anecdote title='Anecdote of the day ' index={selected} points={points} />
+      <Anecdote title='Anecdote of the day' index={selected} points={points} />
       <Button onClick={handleVote} text='vote' />
       <Button onClick={handleNextAnecdote} text='next anecdote' />
       <Anecdote title='Anecdote with most votes' index={mostVotes} points={points} />
